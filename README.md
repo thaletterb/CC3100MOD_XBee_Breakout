@@ -14,6 +14,9 @@ Contains a diptrace schematic (.dch) and pcb layout (.dip) file
  * 2 10 pin header strips
 
 ##Board Layout:##
+* DRC Notes
+ * A number of DRC rules about spacing are located in the antenna section of the layout.
+ * These DRCs are flagged because the FEED pin is connected to the GND plane (needed to create the inductive stub to cancel out the antenna's capacitance)
 * Dimensions 
  * Rectilinear Outline
   * X: 960 mils
