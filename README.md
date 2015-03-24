@@ -17,6 +17,7 @@ Contains a diptrace schematic (.dch) and pcb layout (.dip) file
 * DRC Notes
  * A number of DRC rules about spacing are located in the antenna section of the layout.
  * These DRCs are flagged because the FEED pin is connected to the GND plane (needed to create the inductive stub to cancel out the antenna's capacitance)
+
 * Dimensions 
  * Rectilinear Outline
   * X: 960 mils
@@ -24,6 +25,7 @@ Contains a diptrace schematic (.dch) and pcb layout (.dip) file
  * W/ Two Triangular "Cutouts" On Top
   * X: 299 mils
   * Y: 257 mils
+
 * Header Pins (From Top To Bottom) 
  * Left Hand Side:
   * H1-1: VDD_3V3 (TI Pins 36, 37, 40)
@@ -36,7 +38,8 @@ Contains a diptrace schematic (.dch) and pcb layout (.dip) file
   * H1-8: NC
   * H1-9: NC
   * H1-10: GND (TI Pins 1, 2, 26, 27, 28, 30, 32, 38, 43, 55-63)
- * Right Hand Side:
+
+* Right Hand Side:
   * H2-10: HOST_INTR (TI Pin 11)
   * H2-9: NC
   * H2-8: SPI_SCLK (TI Pin 5)
