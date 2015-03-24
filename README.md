@@ -4,7 +4,7 @@
 Contains a diptrace schematic (.dch) and pcb layout (.dip) file
 
 ##Schematic:##
-* <TT> Bill Of Materials </TT>
+* Bill Of Materials 
  * 1 CC3100MOD Wifi Wireless Network Module
  * 1 AH316M245001-T Antenna
  * 1 1.0pF capacitor
@@ -14,14 +14,14 @@ Contains a diptrace schematic (.dch) and pcb layout (.dip) file
  * 2 10 pin header strips
 
 ##Board Layout:##
-* <TT> Dimensions </TT>
+* Dimensions 
  * Rectilinear Outline
   * X: 960 mils
   * Y: 1297 mils
  * W/ Two Triangular "Cutouts" On Top
   * X: 299 mils
   * Y: 257 mils
-* <TT> Header Pins (From Top To Bottom) </TT>
+* Header Pins (From Top To Bottom) 
  * Left Hand Side:
   * H1-1: VDD_3V3 (TI Pins 36, 37, 40)
   * H1-2: UART_TX (TI Pin 46)
