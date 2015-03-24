@@ -1,7 +1,11 @@
 ######################################################
 # CC3100MOD Xbee Style Breakout Board                #
 ######################################################
-Contains a diptrace schematic (.dch) and pcb layout (.dip) file
+Contains a diptrace schematic (.dch) and pcb layout (.dip) file for the CC3100MOD Wifi Wireless Network Module. Not yet built or tested!
+
+* Powered by 3.3V
+* Can communicate with a host MCU over standard SPI or UART hardware flow control (See "Header Pins" section below)
+* Sleep (hibernate) Mode allows for minimum power consumption when not in use
 
 ##Schematic:##
 * Bill Of Materials 
