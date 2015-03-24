@@ -17,6 +17,7 @@ Contains a diptrace schematic (.dch) and pcb layout (.dip) file
 * DRC Notes
  * A number of DRC rules about spacing are located in the antenna section of the layout.
  * These DRCs are flagged because the FEED pin is connected to the GND plane (needed to create the inductive stub to cancel out the antenna's capacitance)
+ * Refer to section 6.3 of the datasheet (http://www.ti.com/lit/ds/symlink/cc3100mod.pdf)
 
 * Dimensions 
  * Rectilinear Outline
